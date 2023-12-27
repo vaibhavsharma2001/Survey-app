@@ -7,8 +7,8 @@
     "start": "node server",
     "server": "nodemon server",
     "client": "yarn start --prefix client",
-    "dev": "concurrently \"npm run server\" \"yarn run client\"",
-    "build": "yarn install && yarn install --cwd client && yarn run build --cwd client",
+    "dev": "concurrently \"yarn run server\" \"yarn run client\"",
+    "build": " && yarn install --cwd client && yarn run build --cwd client",
     "start-prod": "node server"
   },
   "author": "vaibhav",
