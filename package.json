@@ -10,7 +10,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "build": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "author": "Amit Roy",
+  "author": "vaibhav",
   "license": "ISC",
   "dependencies": {
     "config": "^3.3.6",
